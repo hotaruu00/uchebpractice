@@ -37,6 +37,7 @@ public class Polygon
     }
 
     // Метод для проверки принадлежности точки многоугольнику
+    // Отсутствует реализация метода ContainsPoint
     public bool ContainsPoint(Point point)
     {
         int n = vertices.Length;
